@@ -1,0 +1,48 @@
+	#map {
+		float: left;
+		height: 80%; 
+		width: 75%; 
+	 }  
+    html, body {
+      height: 100%;
+      margin: 20px;
+      padding: 30;
+	 }
+	 .button {
+		background-color: #3399FF;
+		border: none;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 15px;
+		font-weight: 300;
+		margin-left: 12px;
+		padding: 15px 11px 10px 13px;
+		cursor: pointer;
+		input {
+			width: 100%;
+			}
+		}
+	
+	  #start, #end, .lbl {
+        background-color: #fff;
+        font-family: tahoma, arial, sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 12px 11px 10px 13px;
+        text-overflow: ellipsis;
+		width : 20%;
+       }
+
+      #start:focus {
+        border-color: #4d90fe;
+      }
+	  
+	  #time_dist {
+		  display:none;
+		  width:25%;
+		  float:right
+	  }
+	  
